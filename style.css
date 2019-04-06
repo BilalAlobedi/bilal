@@ -1,0 +1,362 @@
+@media screen and (min-width:400px) and (max-width:415px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: lightcoral;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: bodycolor;
+
+    }
+
+    @keyframes bodycolor {
+        from {
+            background-color: rosybrown;
+        }
+
+        to {
+            background-color: blue;
+        }
+    }
+
+    .container {
+        margin: 4px 10px 4px 10px;
+        background-color: rosybrown;
+        border: solid 1px black;
+        animation-duration: 2s;
+        animation-name: cont;
+        animation-iteration-count: infinite;
+        position: relative;
+
+    }
+
+    @keyframes cont {
+        0% {
+            border-top: solid 1px yellow;
+        }
+
+        25% {
+            border-bottom: solid 1px yellow;
+
+        }
+
+        50% {
+            border-right: solid 1px red;
+        }
+
+        75% {
+            border-left: solid 1px white;
+        }
+
+        100% {
+            border: solid 1px green;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: coral;
+    }
+
+    .mother1 {
+        display: flex;
+        margin: 0 15px;
+
+    }
+
+
+
+    .try1 {
+        background-color: lightcoral;
+        height: 684px;
+        width: 180px;
+        animation-name: doorleft;
+        animation-duration: 3s;
+        text-align: center;
+        color: lightgreen;
+        
+
+    }
+
+    @keyframes doorleft {
+        from {
+            left: 0;
+            margin-right: 600px;
+        }
+
+
+    }
+
+    .try2 {
+        height: 684px;
+        width: 180px;
+        background-color: lightcoral;
+        color: lightgreen;
+        text-align: center;
+    }
+    #ff {color:lightcoral;
+     position:absolute;
+    font-size: 1px;}
+
+}
+
+@media screen and (min-width:700px) and (max-width:850px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: lightcoral;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: bodycolor;
+
+    }
+
+    @keyframes bodycolor {
+        from {
+            background-color: rosybrown;
+        }
+
+        to {
+            background-color: blue;
+        }
+    }
+
+    .container {
+        margin: 4px 10px 4px 10px;
+        background-color: rosybrown;
+        border: solid 1px black;
+        animation-duration: 2s;
+        animation-name: cont;
+        animation-iteration-count: infinite;
+        position: relative;
+
+    }
+
+    @keyframes cont {
+        0% {
+            border-top: solid 1px yellow;
+        }
+
+        25% {
+            border-bottom: solid 1px yellow;
+
+        }
+
+        50% {
+            border-right: solid 1px red;
+        }
+
+        75% {
+            border-left: solid 1px white;
+        }
+
+        100% {
+            border: solid 1px green;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: coral;
+    }
+
+    .mother1 {
+        margin: 0 15px;
+        display: flex;
+
+    }
+
+
+
+    .try1 {
+        background-color: lightcoral;
+        height: 364px;
+        width: 330px;
+        animation-name: doorleft;
+        animation-duration: 3s;
+        text-align: center;
+
+        position: relative;
+
+    }
+
+    @keyframes doorleft {
+        from {
+            left: -700px;
+        }
+
+        to {
+            left: 1%;
+        }
+
+
+    }
+
+    .try2 {
+        height: 364px;
+        width: 180px;
+        background-color: lightcoral;
+        position: absolute;
+        right: 12px;
+        width: 330px;
+        animation-name: doorright;
+        animation-duration: 3s;
+        text-align: center;
+
+
+    }
+
+    @keyframes doorright {
+        from {
+            right: -700px;
+        }
+    }
+    #ff { color:rosybrown;}
+}
+
+@media screen and (min-width:900px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: lightcoral;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-name: bodycolor;
+
+    }
+
+    @keyframes bodycolor {
+        from {
+            background-color: rosybrown;
+        }
+
+        to {
+            background-color: blue;
+        }
+    }
+
+    .container {
+        margin: 1% 1% 1% 1%;
+        background-color: rosybrown;
+        border: solid 1px black;
+        animation-duration: 2s;
+        animation-name: cont;
+        animation-iteration-count: infinite;
+        position: relative;
+        height: 97%;
+    }
+
+    @keyframes cont {
+        0% {
+            border-top: solid 1px yellow;
+        }
+
+        25% {
+            border-bottom: solid 1px yellow;
+
+        }
+
+        50% {
+            border-right: solid 1px red;
+        }
+
+        75% {
+            border-left: solid 1px white;
+        }
+
+        100% {
+            border: solid 1px green;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        color: coral;
+        font-size: 300%;  }
+
+    .mother1 {
+        margin: 0 15px;
+        display: flex;
+        height: 100%;
+        
+
+    }
+
+
+
+    .try1 {
+        background-color: lightcoral;
+        height: 90%;
+        width: 20%;
+        animation-name: doorleft;
+        animation-duration: 3s;
+        position: absolute;
+        border-style: dashed ;
+        text-align: center
+
+    }
+
+    @keyframes doorleft {
+        from {
+            left: -20%;
+        }
+
+        to {left: 1%;
+        }
+
+
+    }
+
+    .try2 {
+        height: 90%;
+        width: 20%;
+        background-color: lightcoral;
+        position: absolute;
+        right: 1%; 
+            width: 20%;
+        animation-name: doorright;
+        animation-duration: 3s;
+        border-style: dashed ;
+        text-align: center;
+
+
+    }
+
+    @keyframes doorright {
+        from {
+            right: -20%;
+        }
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+    #ff{ background-color:lightcoral;
+position: absolute; 
+left: 21%;
+top: 50%; 
+height: 20%;
+width: 58.23%;
+display: block;
+text-align: center;
+color: lightgoldenrodyellow;
+border-style: dashed ;}
+
+}
+
